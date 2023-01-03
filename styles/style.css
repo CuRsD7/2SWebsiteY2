@@ -1,0 +1,67 @@
+/* Main styling */
+main
+{
+    margin-top: 3%;
+}
+/* Header styling */
+header
+{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 5px;
+}
+/* Footer Styling */
+footer
+{
+    padding: 2px;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: darkgrey;
+}
+footer p
+{
+    text-align: center;
+    color: white;
+}
+/* Body styling */
+body
+{
+    font-family: Verdana;
+    color: white;
+    background-color: #0f0f0f;
+}
+/* h1 styling */
+h1, h2
+{
+    text-align: center;
+    font-size: 2em;
+}
+/* Home pic class */
+.homePic
+{
+    margin-left: 20%;
+    margin-bottom: 1%;
+    width: 60%;
+    height: 60%;
+}
+/* Standings IDs */
+#standingsDvrs
+{
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-bottom: 5%; 
+    width: 90%;
+    height: 800px;
+}
+#standingsCons
+{
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-bottom: 5%; 
+    width: 40%;
+    height: 600px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Author:            Milosz Martyka
+DOC:               01/01/2023
+Page Description:  Current Standings Page for the 2S League
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Current Standings for 2S Racing League">
+        <title>2S ACC Standings</title>
+        <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" href="images/favicon-16x16.png" type="image/gif" sizes="16x16">
+    </head>
+    <body> <!-- Body tag start-->
+        <header>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">2S Racing League</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="standings.html">Standings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="btn-toolbar">
+                <a class="nav-item nav-link" href="checkout.html">
+                <button type="button" class="btn btn-secondary ml-2">
+                  Checkout <span class="badge badge-light" id="checkout"></span>
+                </button>
+                </a>
+            </div> 
+          </nav>
+        <main> <!-- main wrapper tag-->
+        <section>
+            <h1>Driver Standings for Season 8</h1>
+            <iframe id="standingsDvrs" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxQlcOSHsgNiJyXpy7g7-SsKkIH6o21aMOnKNPBYXodwFCZ6v1T4Rvb2lNpTK1fhoS6_Pd3PutRrSK/pubhtml?gid=969722563&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            <h2>Constructor Standings for Season 8</h2>
+            <iframe id="standingsCons" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxQlcOSHsgNiJyXpy7g7-SsKkIH6o21aMOnKNPBYXodwFCZ6v1T4Rvb2lNpTK1fhoS6_Pd3PutRrSK/pubhtml?gid=720242706&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </section>
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2023 2S Racing League</p>
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+              <li class="nav-item"><a href="shop.html" class="nav-link px-2 text-muted">Shop</a></li>
+              <li class="nav-item"><a href="standings.html" class="nav-link px-2 text-muted">Standings</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+        </footer>
+        <script src="javaScript/bootstrap.js"></script>
+        <script src="javaScript/custom.js"></script>
+    </body> <!-- Body tag end-->
+</html>
